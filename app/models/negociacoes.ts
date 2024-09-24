@@ -1,7 +1,8 @@
 import { Negociacao } from "./negociacao";
 
 export class Negociacoes{
-    private negociacoes: Array<Negociacao> = [];
+    //Array<Negociacao> é a mesma coisa que Negociacao[]
+    private negociacoes: Negociacao[] = [];
 
     adiciona(negociacao: Negociacao){
         this.negociacoes.push(negociacao);
@@ -12,8 +13,10 @@ export class Negociacoes{
         preservados, impossibilitando de serem modificados ou removidos.
         Assim impede que pessoas desenvolvedoras utilize métodos de array
         como push() e pop().
+        
+        Modificador readonly resulta na mesma coisa que ReadOnlyArray
     */
-    listaDeNegociacoes(): ReadonlyArray<Negociacao>{
+    listaDeNegociacoes(): readonly Negociacao[]{
         return this.negociacoes;
     }
 }
