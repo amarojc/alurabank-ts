@@ -1,13 +1,17 @@
 export class Negociacao{
-    private _data: Date;
-    private _quantidade: number;
-    private _valor: number;
+ 
 
-   constructor(data:Date, quantidade: number, valor: number){
-    this._data = data;
-    this._quantidade = quantidade;
-    this._valor = valor;
-   }
+    /*
+    Explicitando o modificador de acesso direto no construtor, indicando 
+    para o typeScript que ele vai "por debaixo do panos" criar
+    uma propriedade da sua classe que contenha o mesmo nome dos 
+    paramêtros do seu contrutor e fazer a atribuição.
+    */ 
+   constructor(
+        private _data:Date,
+        private _quantidade: number,
+        private _valor: number
+    ){}
 
    get data(): Date{
     return this._data;
