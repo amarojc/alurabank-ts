@@ -8,10 +8,23 @@ export class Negociacao{
     paramêtros do seu contrutor e fazer a atribuição.
     */ 
    constructor(
-        public readonly data:Date,
+        private _data: Date,
         public readonly quantidade: number,
         public readonly valor: number
     ){}
+
+    /*
+    Programação defensiva
+    Clonando a data para que ela seja imutável e preserve o data
+    que tenho dentro da minha negociação. Desta forma, caso alguém
+    tente adicionar/alterar a data, a pessoa será impedida de realizar a operação, 
+    seja por, via de atribuição (const data = new Date()) 
+    ou via set (negociacao.data.setDate(12)).
+    */
+   get data(): Date{
+        const data = new Date(this._data.getTime());
+        return data;
+   }
 
    get volume(): number{
     return this.quantidade * this.valor;
