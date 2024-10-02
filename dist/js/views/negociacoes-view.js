@@ -18,17 +18,26 @@ export class NegociacoesView {
                 ${model.listaDeNegociacoes().map(negociacao => {
             return `
                         <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>${new Intl.DateTimeFormat()
+                .format(negociacao.data)}
+                            </td>
+                            <td>
+                                ${negociacao.quantidade}
+                            </td>
+                            <td>
+                                ${negociacao.valor}
+                            </td>
+                        </tr>    
                     `;
-        })}
+        }).join('')}
             </tbody>
         </table>
         `;
     }
     //Utilizado para renderizar o template num elemento que foi capturado através do construtor
     update(model) {
-        this.elemento.innerHTML = this.template(model);
+        const template = this.template(model);
+        console.log(template);
+        this.elemento.innerHTML = template;
     }
 }

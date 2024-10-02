@@ -1,5 +1,5 @@
 # Alurabank-ts
-### Alurabank-ts é um projeto de estudo desenvolvido no curso de fundamentos do TypeScript, na plataforma Alura, com o professor Flávio Almeida.
+### Alurabank-ts é um projeto de estudo desenvolvido no curso de TypeScript, na plataforma Alura, com o professor Flávio Almeida.
 
 
 ### Layout web
@@ -45,6 +45,62 @@
 - Getters e propriedades públicas em modo de leitura;
 - Programação defensiva.
 
+
+**Elaborando a view**
+Criando nossa primeira view
+Integrando nossa view à página
+Criação de templates declarativos e dinâmicos
+Manipulação declarativa do DOM através de template
+Template dinâmico
+Formatação de datas usando Intl
+
+---- EDITAR 
+
+**Herança e reaproveitamento de código**
+Projeto da aula anterior
+Criando view da mensagem
+Resolvendo repetição de código
+Herança e pequena surpresa
+Utilizando Herança
+Modificador de acesso
+Mais surpresas com Herança
+Avançando no uso de Generics
+Dois tipos genéricos
+Implementando uma classe abstrata
+Utilizando Herança
+Analisando uma classe abstrata
+
+**Visibilidade de métodos e Enumeration**
+Projeto da aula anterior
+Visibilidade do método template
+Métodos privados
+Centralizando updates em um único lugar
+Aceitando apenas dias úteis
+Obtendo o dia da semana
+Organizando melhor nosso código
+Conhecendo enumerations
+Cuidados na declaração de enums
+Identificando valores no enum
+
+
+**Lapidando nosso código**
+Isolando a lógica de conversão de entrada
+Métodos estáticos
+Tornando um método estático
+Protegendo nosso template
+Utilizando parâmetros opcionais
+Sobre parâmetros opcionais
+
+**TSC e StrictNullChecks**
+Projeto da aula anterior
+Removendo comentários do código
+Mudança no tsconfig.json
+A configuração strictNullChecks
+Revisando o strictNullChecks
+Suprimindo a checagem onde faz sentido
+Tratando null em nosso código
+
+<br>
 ## Tecnologias utilizadas
 * Node: v20.17.0
 * TypeScript: ^5.6.2
