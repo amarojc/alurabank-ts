@@ -45,59 +45,52 @@
 - Getters e propriedades públicas em modo de leitura;
 - Programação defensiva.
 
-
 **Elaborando a view**
-Criando nossa primeira view
-Integrando nossa view à página
-Criação de templates declarativos e dinâmicos
-Manipulação declarativa do DOM através de template
-Template dinâmico
-Formatação de datas usando Intl
+- Criando nossa primeira view
+- Integrando nossa view à página
+- Criação de templates declarativos e dinâmicos
+- Manipulação declarativa do DOM através de template
+- Template dinâmico
+- Formatação de datas usando Intl
 
 **Herança e reaproveitamento de código**
-Criando view da mensagem
-Resolvendo repetição de código
-Utilizando Herança
-Modificador de acesso
-Avançando no uso de Generics
-Implementando e analisando uma classe abstrata
-
----- EDITAR 
+- Criando view da mensagem
+- Resolvendo repetição de código
+- Utilizando Herança
+- Modificador de acesso
+- Avançando no uso de Generics
+- Implementando e analisando uma classe abstrata
 
 **Visibilidade de métodos e Enumeration**
-Projeto da aula anterior
-Visibilidade do método template
-Métodos privados
-Centralizando updates em um único lugar
-Aceitando apenas dias úteis
-Obtendo o dia da semana
-Organizando melhor nosso código
-Conhecendo enumerations
-Cuidados na declaração de enums
-Identificando valores no enum
+- Visibilidade do método template
+- Métodos privados
+- Centralizando updates em um único lugar
+- Aceitando apenas dias úteis
+- Obtendo o dia da semana
+- Enumerations e os cuidados na declaração de enums
 
+Em construção...
 
 **Lapidando nosso código**
-Isolando a lógica de conversão de entrada
-Métodos estáticos
-Tornando um método estático
-Protegendo nosso template
-Utilizando parâmetros opcionais
-Sobre parâmetros opcionais
+- Isolando a lógica de conversão de entrada
+- Métodos estáticos
+- Tornando um método estático
+- Protegendo nosso template
+- Utilizando parâmetros opcionais
+- Sobre parâmetros opcionais
 
 **TSC e StrictNullChecks**
-Projeto da aula anterior
-Removendo comentários do código
-Mudança no tsconfig.json
-A configuração strictNullChecks
-Revisando o strictNullChecks
-Suprimindo a checagem onde faz sentido
-Tratando null em nosso código
+- Removendo comentários do código
+- Mudança no tsconfig.json
+- A configuração strictNullChecks
+- Revisando o strictNullChecks
+- Suprimindo a checagem onde faz sentido
+- Tratando null em nosso código
 
 <br>
 ## Tecnologias utilizadas
-* Node: v20.17.0
-* TypeScript: ^5.6.2
+- Node: v20.17.0
+- TypeScript: ^5.6.2
 
 ## Executando o projeto
 
@@ -119,7 +112,7 @@ npm start
 ```
 
 
-> Caso ocorra tudo bem, na inicialização do projeto, será apresentada a seguinte mensagem no términal:
+> Caso ocorra tudo bem na inicialização do projeto será apresentada a seguinte mensagem, no términal:
 
  Starting compilation in watch mode...<br>
 [0]<br>
