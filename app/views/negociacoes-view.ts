@@ -4,7 +4,7 @@ import { View } from "./view.js";
 export class NegociacoesView extends View<Negociacoes>{
   
     //Declarando o template da view: Tem a finalidade de retornar uma string HTML no futuro com os dados necesários
-    template(model: Negociacoes): string{
+    protected template(model: Negociacoes): string{
         return `
         <table class="table table-hover table-bordered">
             <thead>

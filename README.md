@@ -54,21 +54,15 @@ Manipulação declarativa do DOM através de template
 Template dinâmico
 Formatação de datas usando Intl
 
----- EDITAR 
-
 **Herança e reaproveitamento de código**
-Projeto da aula anterior
 Criando view da mensagem
 Resolvendo repetição de código
-Herança e pequena surpresa
 Utilizando Herança
 Modificador de acesso
-Mais surpresas com Herança
 Avançando no uso de Generics
-Dois tipos genéricos
-Implementando uma classe abstrata
-Utilizando Herança
-Analisando uma classe abstrata
+Implementando e analisando uma classe abstrata
+
+---- EDITAR 
 
 **Visibilidade de métodos e Enumeration**
 Projeto da aula anterior
