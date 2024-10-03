@@ -4,7 +4,7 @@ export class Negociacoes{
     //Array<Negociacao> é a mesma coisa que Negociacao[]
     private negociacoes: Negociacao[] = [];
 
-    adiciona(negociacao: Negociacao){
+    public adiciona(negociacao: Negociacao){
         this.negociacoes.push(negociacao);
     }
 
@@ -16,7 +16,7 @@ export class Negociacoes{
         
         Modificador readonly resulta na mesma coisa que ReadOnlyArray
     */
-    listaDeNegociacoes(): readonly Negociacao[]{
+   public listaDeNegociacoes(): readonly Negociacao[]{
         return this.negociacoes;
     }
 }
