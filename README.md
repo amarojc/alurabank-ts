@@ -68,9 +68,7 @@
 - Aceitando apenas dias úteis
 - Obtendo o dia da semana
 - Enumerations e os cuidados na declaração de enums
-
-Em construção...
-
+ 
 **Lapidando nosso código**
 - Isolando a lógica de conversão de entrada
 - Métodos estáticos
@@ -81,10 +79,9 @@ Em construção...
 
 **TSC e StrictNullChecks**
 - Removendo comentários do código
-- Mudança no tsconfig.json
 - A configuração strictNullChecks
-- Revisando o strictNullChecks
-- Suprimindo a checagem onde faz sentido
+- suprimir erros, quando fizer sentido, resultantes do strictNullChecks
+- Benefícios do strictNullChecks no controle do fluxo da sua aplicação
 - Tratando null em nosso código
 
 <br>
